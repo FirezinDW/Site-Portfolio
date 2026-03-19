@@ -1,0 +1,112 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: url(../img/telafundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+p{
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* ==== SEÇÃO PRINCIPAL (index.html) ==== */
+
+
+
+.home h1{
+    font-weight: bold;
+    color: #ff6800;
+    text-decoration: none;
+    font-size: 55px;
+    text-align: justify;
+}
+
+.home span{
+    color: #ff8e00;
+}
+
+/* ======= CABEÇALHO E MENU ======= */
+
+nav.menu{   
+    text-align: center;
+    margin-top: 15px 0;
+}
+
+nav.menu a{
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav.menu a:hover{
+    color: #ff0000;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* ======= SEÇÃO PRINCIPAL ======= */
+
+.contato{
+    padding: 50px 20px;
+}
+
+.contato form{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contato label{
+    font-weight: bold;
+    text-align: left;
+}
+
+.contato input, .contato textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato .enviar{
+    padding: 10px;
+    background-color: #ff6800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contato .cancelar{
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contato .enviar:hover{
+    background-color: #ff8e00;
+}
+.contato .cancelar:hover{
+    background-color: #968e8e;
+}
+.sobre{
+    text-align: center;
+}
